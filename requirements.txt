@@ -1,0 +1,8 @@
+langchain
+langgraph
+langchain-groq
+langchain-google-genai
+deepeval
+python-dotenv
+pydantic
+pytest

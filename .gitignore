@@ -1,0 +1,66 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+*service-account*.json
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# DeepEval generated files and caches
+.deepeval/
+deepeval-cache/
+.cache/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Local database and generated records
+*.db
+*.sqlite
+*.sqlite3
+refund_records.json
+
+# Authentication sessions
+*.session
+*.session-journal
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Local environment and debugging
+.python-version
